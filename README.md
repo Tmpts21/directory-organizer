@@ -1,6 +1,12 @@
 
 ## Organize and manage messy directories 🧹
 
+### To run the script  
+
+- git clone https://github.com/Tmpts21/directory-organizer.git
+- cd directory-organizer
+- python oraganize.py 
+
 the script runs with a json file. Inside the json file you can specify the configurations to organize the directory.
 
 ```
