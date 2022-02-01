@@ -22,7 +22,7 @@ def run_script(config) :
     try : 
         for i in config["automate"] :           
             if i["organize"] == "True" :              
-                move ( i["file_ext"], config['directory']['path'] , i["type"] )             
+                move ( i["file_ext"], config['directory']['path'] , i["type"] )            
    
     except FileNotFoundError as err :       
         return err 

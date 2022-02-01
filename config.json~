@@ -1,24 +1,24 @@
 {   
 "directory" :  
 	{
-		"path ":["path of directory to organize ex: C:\\Users\\tmpts21\\Desktop"] 
+		"path ":["C:\\Users\\ianta\\OneDrive\\Desktop"]
 	} 
 , 
 
 "automate" : [ 
 		{ 
-			"type" : "IMAGES" ,  
+			"type" : "images" ,  
 			"organize" : "True" ,    
 			"file_ext" :".jpeg .jpg .gif .png .PNG .JPG "       
 		},   
 		{
 			
-			"type" : "DOCS" , 
+			"type" : "docs" , 
 			"organize" : "True" ,   
 			"file_ext" : ".docx .pdf .doc .ppt .pttx .xls "    
 		}, 
 		{
-			"type" : "VIDEOS" ,  
+			"type" : "videos" ,  
 			"organize" : "True" ,  
 			"file_ext" : ".wmv .mov .mp4 .mpg .mpeg .mkv" 
 		}
