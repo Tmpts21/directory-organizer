@@ -6,7 +6,8 @@ from datetime import datetime
 
 # move the files in the directory 
 def move(file_ext , directories , _type , sort = None) :               
-
+   
+    #traverse inside the directory
     for directory in directories :  
         files = os.listdir(directory)      
         for file in files :            
