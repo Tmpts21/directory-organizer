@@ -17,7 +17,7 @@ def move(file_ext , directories , _type , sort = None) :
                 except FileExistsError :     
                     os.rename(From , To + datetime.now() )     
 
-
+# run the script
 def run_script(config) :                    
     try : 
         for i in config["automate"] :           
