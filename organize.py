@@ -1,7 +1,10 @@
 from json import load
 import os  
-from datetime import datetime 
+from datetime import datetime  
 
+
+
+# move the files in the directory 
 def move(file_ext , directories , _type , sort = None) :               
 
     for directory in directories :  
@@ -20,6 +23,7 @@ def move(file_ext , directories , _type , sort = None) :
 # run the script
 def run_script(config) :                    
     try : 
+	#read config files
         for i in config["automate"] :           
             if i["organize"] == "True" :              
                 move ( i["file_ext"], config['directory']['path'] , i["type"] )             
