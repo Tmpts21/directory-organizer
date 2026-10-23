@@ -8,18 +8,18 @@
 "automate" : [ 
 		{ 
 			"type" : "IMAGES" ,  
-			"organize" : "True" ,    
-			"file_ext" :".jpeg .jpg .gif .png .PNG .JPG "       
+			"organize" : true ,    
+			"file_ext" :".jpeg .jpg .gif .png"       
 		},   
 		{
 			
 			"type" : "DOCS" , 
-			"organize" : "True" ,   
+			"organize" : true ,   
 			"file_ext" : ".docx .pdf .doc .ppt .pttx .xls "    
 		}, 
 		{
 			"type" : "VIDEOS" ,  
-			"organize" : "True" ,  
+			"organize" : true ,  
 			"file_ext" : ".wmv .mov .mp4 .mpg .mpeg .mkv" 
 		}
 	] 
